@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 import os
-ADMIN = int(os.environ.get("ADMIN", 923943045))
+ADMIN = int(os.environ.get("ADMIN", 6010304291))
 from database import getid
 
 @Client.on_message(filters.user(ADMIN) & filters.command(["broadcast"]))
